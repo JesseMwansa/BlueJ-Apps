@@ -1,3 +1,27 @@
-Student derek = new Student("Derek", 12345678);
-Course Computing = new Course("COMP01", "BSc Computing");
-derek.enrol(Computing);
+Course dataScience = new Course("BB1DSC1", "BSc Data Science");
+dataScience.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1DSC1: BSc Data Science
+
+Course dataScience = new Course("BB1DSC1", "BSc Data Science");
+dataScience.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1DSC1: BSc Data Science
+
+Student student1 = new Student("Jesse Mwansa", 22140600);
+student1.print();
+ Student ID: 22140600 Name: Jesse Mwansa
+student1.enrol(dataScience);
+student1.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1DSC1: BSc Data Science
+
